@@ -1,112 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="An Australian-owned and operated Cardano stake pool.">
-		<meta name="author" content="https://t.me/soccer193">
-		<meta name="viewport" content="width=device-width">
-		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-		<meta http-equiv="Pragma" content="no-cache">
-		<meta http-equiv="Expires" content="0">
 
-		<link rel="stylesheet" href="/normalize.css">
-		<style>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="An Australian-owned and operated Cardano stake pool.">
+	<meta name="author" content="https://t.me/soccer193">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
 
-body {
-	background-color: #313E50;
-	font: 15px Helvetica, sans-serif;
-	margin: 2em auto 0.5em;
-	line-height: 1.45em;
-	max-width: 42em;
-	padding: 0 1rem;
-	color: #FFFFFF;
-}
-
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+	<link rel="stylesheet" href="/normalize.css">
+	<style>
+		body {
+			background-color: #313E50;
+			font: 15px Helvetica, sans-serif;
+			margin: 2em auto 0.5em;
+			line-height: 1.45em;
+			max-width: 42em;
+			padding: 0 1rem;
+			color: #FFFFFF;
+		}
 
 
-h1, h2, h3, h4, h5, h6 { 
-	font-size: 100%; 
-	filter: opacity(76%);
-	margin: 0.7rem 0;
-}
-h2 { 
-	margin: 0.4rem 0;
-}
-.title {
-	filter: opacity(100%);
-}
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
 
 
-article {
-	margin-top: 0.2rem;
-}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 100%;
+			filter: opacity(76%);
+			margin: 0.7rem 0;
+		}
+
+		h2 {
+			margin: 1.6rem 0 0.4rem 0;
+		}
+
+		.title {
+			filter: opacity(100%);
+		}
 
 
-p, li, table { 
-	margin-bottom: 1em;
-	filter: opacity(76%);
-	
-}
-
-a { 
-	color: #3CB1FF; 
-	text-decoration: none; 
-}
-a:hover { 
-	color: #B4E1FF; 
-}
+		article {
+			margin-top: 0.2rem;
+		}
 
 
-.feed {
-	list-style-type: none;
-	margin-bottom: 2em;
-}
-.feed span {
-	color: #aaa;
-	font-family: Monaco, "Courier New", monospace;
-	font-size: 75%;
-	margin-right: 1em;
-}
+		p,
+		li,
+		table {
+			margin-bottom: 1em;
+			filter: opacity(76%);
+
+		}
 
 
-		</style>
-		<link rel="shortcut icon" type="image/png" href="/icon-48x48.png">
-		<title>KANGA Kangaroo Stake Pool</title>
-	</head>
-   
-	<body>
-         <header>
-            <h1 class="title"><a href="//kangaroo.onl/">kangaroo.onl</a></h1>
-         </header>
-		   <p class="intro">Kangaroo stake pool, an Australian-owned and operated Cardano stake pool.</p>
-		   <h2>Pool information</h2>
-		   <p>
-		   	<table>
-		   		<tr><td>Ticker:</td><td>KANGA</td> </tr>
-				<tr><td>Pool ID:</td><td>403c276d619cbcee266c2f8d73563905ffd8ac7889df11c478704301</td></tr>
-				<tr><td></td><td>(bech32: pool1gq7zwmtpnj7wufnv97xhx43eqhla3trc3803r3rcwppszc6vh9y)</td></tr>
-		   	</table>
-		   	<h3>Reward guarantee</h3>
-		   	<p style="filter: opacity(100%);">
-		   	I provide a guarantee for any staking rewards that are lost due to server downtime. As such it is no longer necessary to micromanage your pool selection.
-		   	</p>
-		   	<p>
-		   	An automatic rebate is provided for these lost rewards, paid directly to the wallet address associated with your stake key, once an epoch. If multiple addresses are associated with the staking key, the latest address is used. A record of these rebates can be obtained by contacting me.
-		   </p>
-		   <h2>Contact</h2>
-		   <p>
-		   	I answer support queries and publish pool information on Telegram at <a href="https://t.me/KangarooStakePool">@KangarooStakePool</a>. I can also be pinged from the <a href="https://t.me/CardanoStakePoolWorkgroup">@CardanoStakePoolWorkgroup</a> Telegram channel at @soccer193. 
-		   	</p>
-		   	<p>
-		   	I aim to provide a set and forget experience for delegators (and myself), however advance notice of any important changes to the stake pool will be provided through the @KangarooStakePool Telegram channel. Please subscribe to this channel, for updates.
-		   </p>
-<!-- 		   <h2>Updates</h2>
+		ul {
+			list-style: none;
+
+		}
+
+		ul li::before {
+			content: "\200B";
+		}
+
+		a {
+			color: #3CB1FF;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #B4E1FF;
+		}
+
+
+		.feed {
+			list-style-type: none;
+			margin-bottom: 2em;
+		}
+
+		.feed span {
+			color: #aaa;
+			font-family: Monaco, "Courier New", monospace;
+			font-size: 75%;
+			margin-right: 1em;
+		}
+	</style>
+	<link rel="shortcut icon" type="image/png" href="/icon-48x48.png">
+	<title>KANGA Kangaroo Stake Pool</title>
+</head>
+
+<body>
+	<header>
+		<h1 class="title"><a href="//kangaroo.onl/">kangaroo.onl</a></h1>
+	</header>
+	<p class="intro">Kangaroo stake pool, an Australian-owned and operated Cardano stake pool.</p>
+	<h2></h2>
+	<p>
+		Support Cardano decentralisation by delegating to a single pool operator today.
+		I provide professional operation of this pool, with my skillset as a professional software developer and hacker.
+		The revenue from this pool is used to fund operational costs and upgrades, as well as eventually sponsoring my
+		own contributions to the Cardano ecosystem.
+	</p>
+
+	<p>
+		New to staking on Cardano? Try these articles:
+	</p>
+	<ul>
+		<li><a href="https://cardano.org/stake-pool-delegation/">cardano.org:
+				Stake Pool
+				Delegation</a></li>
+		<li><a href="https://www.reddit.com/r/Cardano_ELI5/comments/kwmli8/what_does_it_mean_to_stake_your_ada/">reddit.com:
+				What does it mean to "stake" your ADA?</a></li>
+
+	</ul>
+
+	<h2>How to delegate to KANGA / pool information</h2>
+	<p>
+	<table>
+
+		<p>
+			In your favourite Cardano wallet, look for the <span style="filter: unset;">KANGA</span> pool in your
+			'staking' or 'delegation'
+			centre.
+		</p>
+
+		<tr>
+			<td>Ticker:</td>
+			<td>KANGA (<a
+					href="https://cardanoscan.io/pool/403c276d619cbcee266c2f8d73563905ffd8ac7889df11c478704301">cardanoscan.io</a>,
+				<a
+					href="https://adapools.org/pool/403c276d619cbcee266c2f8d73563905ffd8ac7889df11c478704301">adapools.org</a>)
+			</td>
+		</tr>
+		<tr>
+			<td>Pool ID:</td>
+			<td>403c276d619cbcee266c2f8d73563905ffd8ac7889df11c478704301</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>(bech32: pool1gq7zwmtpnj7wufnv97xhx43eqhla3trc3803r3rcwppszc6vh9y)</td>
+		</tr>
+	</table>
+
+	<h2>Contact</h2>
+	<p>
+		I answer support queries and publish pool information on Telegram at <a
+			href="https://t.me/KangarooStakePool">@KangarooStakePool</a>. I can also be pinged from the <a
+			href="https://t.me/CardanoStakePoolWorkgroup">@CardanoStakePoolWorkgroup</a> Telegram channel at @soccer193.
+	</p>
+
+	<p>
+		I aim to provide a set and forget experience for delegators (and myself), however advance notice of any
+		important changes to the stake pool will be provided through the @KangarooStakePool Telegram channel. Please
+		subscribe to this channel, for updates.
+	</p>
+	<!-- 		   <h2>Updates</h2>
 		   <ul class="feed">
 
 		      <li><span>04 Feb 2021</span> Update title <br />
@@ -133,7 +191,6 @@ a:hover {
 		      </li>
 
 		   </ul> -->
-   </body>
+</body>
+
 </html>
-
-
